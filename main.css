@@ -4,11 +4,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
-#loader {
-  position: fixed;
-}
-
 body {
   background:
     radial-gradient(circle at top, rgba(0, 247, 255, 0.1), transparent 40%),
@@ -18,8 +13,6 @@ body {
   scroll-behavior: smooth;
   background-size: cover;
   background-attachment: fixed;
-  overflow: hidden;
-  overflow-x: hidden;
 }
 
 section {
