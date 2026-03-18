@@ -1,6 +1,7 @@
 AOS.init();
 window.onload = () => {
   document.getElementById("loader").style.display = "none";
+  document.body.style.overflow = "auto";
 };
 
 // GSAP Infinite Smooth Carousel (No Jump)
