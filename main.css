@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, rgba(0, 247, 255, 0.1), transparent 40%),
+    radial-gradient(circle at bottom, rgba(138, 46, 255, 0.1), transparent 40%),
+    #050505;
+  color: #fff;
+  scroll-behavior: smooth;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #00f7ff, #8a2eff);
+  border: none;
+  border-radius: 30px;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0 0 20px #00f7ff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #0f0f0f;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px #8a2eff;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 120px;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.progress {
+  background: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.progress div {
+  height: 10px;
+  background: #00f7ff;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.loader-text {
+  color: #00f7ff;
+  font-size: 24px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
+
+footer a {
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #00f7ff;
+  text-shadow: 0 0 10px #00f7ff;
+}
+
+.error {
+  box-shadow: 0 0 8px red;
+}
+
+.success {
+  color: #00f7ff;
+}
+
+.error-text {
+  color: #ff4d4d;
+}

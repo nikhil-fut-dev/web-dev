@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil | Web Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="client-reviews-carousel-card.css">
+    <link rel="stylesheet" href="about-text-video.css">
+    <link rel="stylesheet" href="con-tact-box.css">
+    <link rel="stylesheet" href="chat-popup.css">
+    <link rel="stylesheet" href="">
+
+    <script src="togglemenu.js"></script>
+    <script src="validateform.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="NIKHIL-LOGO.png" alt="logo">
+                </a>
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="#contact" class="nav-btn">Hire Me</a>
+        </div>
+    </header>
+
+    <!-- Backdrop Overlay -->
+    <div class="menu-overlay" onclick="toggleMenu()"></div>
+
+    <div id="loader">
+        <div class="loader-text">Loading...</div>
+    </div>
+
+    <section class="hero" data-aos="fade-up">
+        <div class="container">
+            <h1>Nikhil - Web Developer</h1>
+            <p>Helping businesses grow with modern web development</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <section data-aos="fade-right">
+        <div class="container">
+            <h2>Why Choose Me</h2>
+            <div class="grid">
+                <div class="card">Fast Delivery</div>
+                <div class="card">Premium Design</div>
+                <div class="card">SEO Friendly</div>
+                <div class="card">Client Satisfaction</div>
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="zoom-in">
+        <div class="container">
+            <h2>Skills</h2>
+            <p>HTML</p>
+            <div class="progress">
+                <div style="width:90%"></div>
+            </div>
+            <p>CSS</p>
+            <div class="progress">
+                <div style="width:85%"></div>
+            </div>
+            <p>JavaScript</p>
+            <div class="progress">
+                <div style="width:80%"></div>
+            </div>
+            <p>React</p>
+            <div class="progress">
+                <div style="width:75%"></div>
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="fade-up" id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="grid">
+                <div class="card"><a href="https://nikhil-fut-dev.github.io/dnhj-craft/" target="_blank"><img src="DNHJ-CRAFT.png"></a><a href="#" class="btn">Live</a></div>
+                <div class="card"><a href="https://nikhil-fut-dev.github.io/chhaya-portfolio/" target="_blank"><img src="bgp19.png"></a><a href="#" class="btn">Live</a></div>
+                <div class="card"><a href="https://nikhil-fut-dev.github.io/digital-notes/" target="_blank"><img src="wdb3 - Copy.png"></a><a href="#" class="btn">Live</a></div>
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="fade-up">
+        <div class="container">
+            <h2>⭐ Client Reviews</h2>
+
+            <div class="carousel">
+                <div class="carousel-track" id="carouselTrack">
+
+                    <div class="carousel-card">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg">
+                        <h3>Rahul Sharma</h3>
+                        <div class="stars">★★★★★</div>
+                        <p>"Amazing experience working with Nikhil. The website was fast and modern."</p>
+                    </div>
+
+                    <div class="carousel-card">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg">
+                        <h3>Anjali Verma</h3>
+                        <div class="stars">★★★★★</div>
+                        <p>"Very professional and quick delivery. Highly recommended!"</p>
+                    </div>
+
+                    <div class="carousel-card">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg">
+                        <h3>Amit Patel</h3>
+                        <div class="stars">★★★★★</div>
+                        <p>"Great communication and support. Loved the final result."</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section data-aos="fade-up">
+        <div class="container">
+            <h2>🎥 About Me (Intro Video)</h2>
+
+            <div class="about-video">
+
+                <div class="about-text">
+                    <p>
+                        Hi, I'm <b>Nikhil</b> — a passionate web developer who helps businesses, startups, and
+                        individuals build modern, high-performance websites that not only look stunning but also deliver
+                        real results.
+                    </p>
+
+                    <p>
+                        I specialize in creating <b>clean UI, responsive layouts, and fast-loading websites</b> using
+                        technologies like HTML, CSS, JavaScript, React, PHP, and SQL. My goal is not just to design
+                        websites, but to solve real business problems and improve online presence.
+                    </p>
+
+                    <p>
+                        I have experience working on:
+                    </p>
+
+                    <ul style="margin:10px 0 20px 20px; color:#ccc">
+                        <li>✔ Portfolio Websites</li>
+                        <li>✔ Business Websites</li>
+                        <li>✔ E-commerce Stores</li>
+                        <li>✔ Landing Pages (high-converting)</li>
+                        <li>✔ Custom Web Applications</li>
+                    </ul>
+
+                    <p>
+                        What makes me different is my mindset — I treat every project like my own product. I focus on
+                        <b>performance, user experience, and conversion</b> so your website doesn’t just look good, it
+                        works for your business.
+                    </p>
+
+                    <p>
+                        I believe in <b>clear communication, fast delivery, and long-term relationships</b>. I stay
+                        connected with my clients even after project completion to ensure everything runs smoothly.
+                    </p>
+
+                    <p>
+                        👉 My mission is simple: <b>Build websites that help you grow, attract customers, and succeed
+                            online.</b>
+                    </p>
+
+                    <a href="#contact" class="btn">Let’s Work Together</a>
+                </div>
+
+                <div class="about-video-box">
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Intro Video" allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20Nikhil,%20I%20want%20a%20website" class="whatsapp">💬</a>
+
+    <!-- Floating Chat Popup -->
+    <div id="chatPopup" class="chat-popup">
+        <div class="chat-header">
+            🤖 Nikhil Bot
+            <span class="chat-close" onclick="closeChat()">✖</span>
+        </div>
+
+        <div class="chat-body" id="chatBody">
+            <div class="chat-msg bot">Typing...</div>
+        </div>
+
+        <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20Nikhil,%20I%20want%20a%20website" class="chat-btn">Get Quote</a>
+        <a href="#pricing" class="chat-btn alt">View Pricing</a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <section data-aos="fade-up">
+        <div class="container">
+            <h2>🔥 Get Your Website in 3 Simple Steps</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>1. Share Your Idea</h3>
+                    <p>Tell me your requirements or business goal.</p>
+                </div>
+                <div class="card">
+                    <h3>2. I Build It</h3>
+                    <p>I design & develop your premium website.</p>
+                </div>
+                <div class="card">
+                    <h3>3. Launch & Grow</h3>
+                    <p>You go live and start getting results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="zoom-in">
+        <div class="container">
+            <h2>💼 Packages (Fiverr Style)</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Basic</h3>
+                    <p>1 Page Website</p>
+                    <p>Responsive Design</p>
+                    <p>Delivery: 3 Days</p>
+                    <p>₹4,999</p>
+                    <a href="#contact" class="btn">Order Now</a>
+                </div>
+                <div class="card">
+                    <h3>Standard</h3>
+                    <p>5 Page Website</p>
+                    <p>Premium UI + SEO</p>
+                    <p>Delivery: 5 Days</p>
+                    <p>₹9,999</p>
+                    <a href="#contact" class="btn">Order Now</a>
+                </div>
+                <div class="card">
+                    <h3>Premium</h3>
+                    <p>Full Website + Admin Panel</p>
+                    <p>Advanced Features</p>
+                    <p>Delivery: 7 Days</p>
+                    <p>₹19,999</p>
+                    <a href="#contact" class="btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="fade-left">
+        <div class="container">
+            <h2>Work Process (Step-by-Step)</h2>
+            <div class="grid">
+
+                <div class="card">
+                    <h3>1. Discussion</h3>
+                    <p>We start with a detailed conversation about your business, goals, target audience, and design
+                        preferences. I gather all requirements to fully understand your vision.</p>
+                </div>
+
+                <div class="card">
+                    <h3>2. Research & Planning</h3>
+                    <p>I analyze competitors, choose the right tech stack, and create a clear structure (wireframe) for
+                        your website to ensure best performance and user experience.</p>
+                </div>
+
+                <div class="card">
+                    <h3>3. UI/UX Design</h3>
+                    <p>I design a modern, premium-looking interface with clean layout, colors, and typography focused on
+                        conversion and user engagement.</p>
+                </div>
+
+                <div class="card">
+                    <h3>4. Development</h3>
+                    <p>Your website is built using clean, optimized code. It will be fully responsive, fast-loading, and
+                        compatible across all devices.</p>
+                </div>
+
+                <div class="card">
+                    <h3>5. Testing & Optimization</h3>
+                    <p>I test your website on multiple devices and browsers. Speed, SEO basics, and performance are
+                        optimized before delivery.</p>
+                </div>
+
+                <div class="card">
+                    <h3>6. Delivery & Revisions</h3>
+                    <p>I deliver the final website and make any required revisions to ensure you are 100% satisfied with
+                        the result.</p>
+                </div>
+
+                <div class="card">
+                    <h3>7. Launch</h3>
+                    <p>I help you deploy your website on hosting (GitHub, Netlify, or custom server) and make it live
+                        for the world.</p>
+                </div>
+
+                <div class="card">
+                    <h3>8. Support & Maintenance</h3>
+                    <p>Even after delivery, I provide support for updates, bug fixes, and improvements to help your
+                        business grow.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+        <div class="container">
+            <h2>📞 Contact Me</h2>
+
+            <div class="contact-box">
+
+                <div class="contact-info">
+                    <h3>Let’s Build Something Amazing 🚀</h3>
+                    <p>Have a project in mind? Fill the form or contact me directly.</p>
+                    <p>📧 your@email.com</p>
+                    <p>📱 +91 XXXXXXXX</p>
+                    <p>📍 India</p>
+                </div>
+
+                <div class="contact-form">
+                    <input type="text" id="name" placeholder="Your Name">
+                    <input type="email" id="email" placeholder="Your Email">
+                    <textarea id="message" placeholder="Tell me about your project..."></textarea>
+                    <button class="btn" onclick="validateForm()">Send Message</button>
+                    <p id="formMsg" style="margin-top:10px;font-size:14px"></p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section data-aos="fade-up">
+        <div class="container">
+            <h2>🎯 Why Clients Hire Me</h2>
+            <div class="grid">
+
+                <div class="card">
+                    <div style="color:#FFD700;font-size:18px;margin-bottom:8px">★★★★★</div>
+                    <h3>💬 Clear Communication</h3>
+                    <p><b>Problem:</b> Client confused about project updates</p>
+                    <p><b>Solution:</b> Provided regular updates & clear communication</p>
+                    <p><b>Result:</b> Smooth workflow & happy client</p>
+                </div>
+
+                <div class="card">
+                    <div style="color:#FFD700;font-size:18px;margin-bottom:8px">★★★★★</div>
+                    <h3>⚡ Fast Delivery</h3>
+                    <p><b>Problem:</b> Client needed urgent website</p>
+                    <p><b>Solution:</b> Delivered project before deadline</p>
+                    <p><b>Result:</b> Client launched business early</p>
+                </div>
+
+                <div class="card">
+                    <div style="color:#FFD700;font-size:18px;margin-bottom:8px">★★★★★</div>
+                    <h3>🎨 Premium Design</h3>
+                    <p><b>Problem:</b> Outdated website UI</p>
+                    <p><b>Solution:</b> Redesigned with modern UI</p>
+                    <p><b>Result:</b> Increased user engagement</p>
+                </div>
+
+                <div class="card">
+                    <div style="color:#FFD700;font-size:18px;margin-bottom:8px">★★★★★</div>
+                    <h3>📱 Fully Responsive</h3>
+                    <p><b>Problem:</b> Site not working on mobile</p>
+                    <p><b>Solution:</b> Built fully responsive layout</p>
+                    <p><b>Result:</b> Better mobile user experience</p>
+                </div>
+
+                <div class="card">
+                    <div style="color:#FFD700;font-size:18px;margin-bottom:8px">★★★★★</div>
+                    <h3>🚀 Performance Focused</h3>
+                    <p><b>Problem:</b> Slow website loading</p>
+                    <p><b>Solution:</b> Optimized code & assets</p>
+                    <p><b>Result:</b> Faster load time & better SEO</p>
+                </div>
+
+                <div class="card">
+                    <div style="color:#FFD700;font-size:18px;margin-bottom:8px">★★★★★</div>
+                    <h3>🔄 Unlimited Revisions</h3>
+                    <p><b>Problem:</b> Client unsure about final design</p>
+                    <p><b>Solution:</b> Provided multiple revisions</p>
+                    <p><b>Result:</b> Perfect final output</p>
+                </div>
+
+                <div class="card">
+                    <div style="color:#FFD700;font-size:18px;margin-bottom:8px">★★★★★</div>
+                    <h3>🧠 Problem Solver</h3>
+                    <p><b>Problem:</b> Client had low conversions</p>
+                    <p><b>Solution:</b> Improved UX & CTA</p>
+                    <p><b>Result:</b> Higher conversion rate</p>
+                </div>
+
+                <div class="card">
+                    <div style="color:#FFD700;font-size:18px;margin-bottom:8px">★★★★★</div>
+                    <h3>🤝 Long-Term Support</h3>
+                    <p><b>Problem:</b> Client needed ongoing updates</p>
+                    <p><b>Solution:</b> Provided continuous support</p>
+                    <p><b>Result:</b> Long-term working relationship</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="fade-up">
+        <div class="container" style="text-align:center">
+            <h2>🚀 Ready to Start?</h2>
+            <p>Let's build something amazing together</p>
+            <a href="#contact" class="btn">Start Project</a>
+            <a href="https://wa.me/919839507418" class="btn">Chat on WhatsApp</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-col">
+                <h3>Nikhil</h3>
+                <p>Helping businesses grow with modern, high-performance websites and premium UI design.</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Services</h3>
+                <p>✔ Website Development</p>
+                <p>✔ UI/UX Design</p>
+                <p>✔ E-commerce</p>
+                <p>✔ SEO Optimization</p>
+                <p>✔ Maintenance</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <p><a href="#">Home</a></p>
+                <p><a href="#">Portfolio</a></p>
+                <p><a href="#">Services</a></p>
+                <p><a href="#contact">Contact</a></p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>proonwork@gmail.com</p>
+                <p>+91 9839507418</p>
+                <p>India</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Follow Me</h3>
+                <p><a href="https://github.com/nikhil-fut-dev">GitHub</a></p>
+                <p><a href="#">LinkedIn</a></p>
+                <p><a href="#">Instagram</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 NIKHIL | All Rights Reserved | Designed with ❤️</p>
+        </div>
+    </footer>
+
+    <script src="chat-popup.js"></script>
+    <script src="aos.js"></script>
+
+</body>
+
+</html>

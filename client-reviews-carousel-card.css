@@ -1,0 +1,48 @@
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  animation: slide 12s infinite;
+}
+
+.carousel-card {
+  min-width: 300px;
+  background: #0f0f0f;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.carousel-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.stars {
+  color: #ffd700;
+  margin: 8px 0;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    transform: translateX(-320px);
+  }
+
+  66% {
+    transform: translateX(-640px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
