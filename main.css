@@ -34,17 +34,17 @@ h2 {
 }
 
 h1 {
-  text-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff;
+  text-shadow: 0 0 5px #00f7ff, 0 0 1px #00f7ff;
 }
 
 .web-col {
-  color: #38bdf8;
-  text-shadow: 0 0 10px #38bdf8, 0 0 20px #38bdf8;
+  color: #0400ff;
+  text-shadow: 0 0 1px #0400ff, 0 0 5px #0400ff;
 }
 
 .text-col {
   color: #ff6804;
-  text-shadow: 0 0 10px #ff6804, 0 0 20px #ff6804;
+  text-shadow: 0 0 1px #ff6804, 0 0 5px #ff6804;
 }
 
 .btn {
