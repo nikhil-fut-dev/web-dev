@@ -7,7 +7,7 @@
 .footer-container {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-  gap: 40px;
+  gap: 100px;
 }
 
 .footer-col h3 {
@@ -71,6 +71,16 @@
   color: #ffffff;
   font-size: 14px;
 }
+
+.footer-links-icons {
+    display: flex;
+    gap: 50px;
+  }
+
+  .footer-links-icons a {
+    font-size: 30px;
+    color: #ffffff;
+  }
 
 .footer-links a:hover {
   text-decoration: underline;
@@ -137,4 +147,5 @@
     flex-direction: column;
     gap: 10px;
   }
+
 }
