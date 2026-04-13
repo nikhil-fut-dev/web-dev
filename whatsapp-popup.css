@@ -1,0 +1,71 @@
+.Cbn-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  width: 90%;
+  max-width: 400px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  z-index: 2000;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.Cbn-popup.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.Cbn-popup h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.Cbn-popup input,
+.Cbn-popup textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+}
+
+.web-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #d1ac88;
+  color: #fff;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.Cbn-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 18px;
+}
+
+.Cbn-close-btn:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.Cbn-floating-btn {
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  color: #25d366;
+  text-decoration: none;
+  font-size: 40px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

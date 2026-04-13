@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="about-text-video.css">
     <link rel="stylesheet" href="con-tact-box.css">
     <link rel="stylesheet" href="chat-popup.css">
+    <link rel="stylesheet" href="whatsapp-popup.css">
     <link rel="shortcut icon" sizes="any" href="favicon.ico">
 
     <script src="togglemenu.js"></script>
@@ -233,7 +234,8 @@
                     </p>
 
                     <p>
-                        <i class="fa-solid fa-hand-point-right"></i> My mission is simple: <b>Build websites that help you grow, attract customers, and succeed
+                        <i class="fa-solid fa-hand-point-right"></i> My mission is simple: <b>Build websites that help
+                            you grow, attract customers, and succeed
                             online.</b>
                     </p>
 
@@ -483,8 +485,20 @@
         </div>
     </section>
 
-    <a href="https://wa.me/919839507418?text=Hi%20Nikhil,%20I%20want%20a%20website" class="whatsapp"><i
-            class="fa-brands fa-whatsapp"></i></a>
+    <div class="Cbn-popup" id="whatsapp-popup">
+        <span class="Cbn-close-btn" onclick="closePopup()"><i class="fa-solid fa-xmark"></i></span>
+        <h3>Contact Us</h3>
+        <form onsubmit="submitForm(event)">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="tel" id="phone" placeholder="Your Phone" required>
+            <input type="email" id="email" placeholder="abc@gmail.com" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button class="web-btn" type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <button class="Cbn-floating-btn" onclick="openPopup()"><i class="fa-brands fa-whatsapp"></i></button>
+
 
     <footer class="footer">
         <div class="footer-container">
@@ -567,8 +581,10 @@
         </div>
 
     </footer>
+
     <script src="footer.js"></script>
     <script src="chat-popup.js"></script>
+    <script src="whatsapp-popup.js"></script>
     <script src="aos.js"></script>
 
 </body>
