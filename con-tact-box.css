@@ -52,6 +52,10 @@
   resize: none;
 }
 
+.contact-form textarea::-webkit-scrollbar {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .contact-box {
     flex-direction: column;

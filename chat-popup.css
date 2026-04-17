@@ -20,8 +20,10 @@
   font-weight: 600;
 }
 
-.chat-close {
+.chat-close:hover {
   cursor: pointer;
+  color: red;
+  transition: 0.3s;
 }
 
 .chat-body {
