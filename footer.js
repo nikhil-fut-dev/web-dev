@@ -1,5 +1,3 @@
-// ================= FOOTER ACCORDION =================
-
 const footerTitles = document.querySelectorAll(".footer-col h4");
 
 footerTitles.forEach((title) => {
